@@ -58,7 +58,7 @@
       <div class="grid two">
         <section class="panel">
           <h2>Customer SMS Request Form</h2>
-          <p class="small">SMS consent is optional. Customers who do not want text messages may contact us by email instead at <a href="mailto:TarHeelW@icloud.com">TarHeelW@icloud.com</a>. This SMS request form requires an affirmative checkbox before SMS messages are sent.</p>
+          <p class="small">SMS consent is optional. Customers who do not want text messages may contact us by email instead at <a href="mailto:TarHeelW@icloud.com">TarHeelW@icloud.com</a>. Customers can submit this request without SMS consent; if the SMS checkbox is not selected, TarHeelW Communications will not send SMS messages.</p>
 
           <form action="mailto:TarHeelW@icloud.com" method="post" enctype="text/plain" aria-label="TarHeelW Communications SMS opt-in form">
             <div class="form-grid">
@@ -97,14 +97,14 @@
               <div class="consent-box">
                 <h3>Required SMS Consent Disclosure</h3>
                 <label class="check" for="sms-consent">
-                  <input id="sms-consent" name="SMS consent" type="checkbox" value="I agree" required>
+                  <input id="sms-consent" name="SMS consent" type="checkbox" value="I agree">
                   <span><strong>I agree to receive SMS text messages from TarHeelW Communications</strong> at the mobile number I provided. Messages may include appointment reminders, scheduling coordination, confirmations, updates, and service-related follow-up from TarHeelW Communications. <strong>Message frequency varies. Message and data rates may apply. Reply STOP to opt out. Reply HELP for help.</strong> Consent is not a condition of purchase or service.</span>
                 </label>
-                <p class="small muted" style="margin:12px 0 0;">The checkbox above is shown unchecked by default and must be selected by the customer before SMS opt-in is accepted. Privacy Policy and Terms of Service are linked below and in the footer.</p>
+                <p class="small muted" style="margin:12px 0 0;">The checkbox above is shown unchecked by default. SMS opt-in is accepted only if the customer affirmatively selects it. Privacy Policy and Terms of Service are linked below and in the footer.</p>
               </div>
 
               <div>
-                <button class="btn" type="submit">Submit SMS Opt-In Request</button>
+                <button class="btn" type="submit">Submit Request</button>
               </div>
             </div>
           </form>
@@ -139,8 +139,8 @@
           <li>The customer visits this TarHeelW Communications branded SMS opt-in page.</li>
           <li>The customer enters their name, mobile number, email address, and request details.</li>
           <li>The customer reviews the full SMS disclosure, including message types, frequency, fees, STOP, HELP, privacy, and terms links.</li>
-          <li>The customer affirmatively checks the unchecked SMS consent box.</li>
-          <li>The customer submits the SMS opt-in request, and TarHeelW Communications keeps the consent record with the related customer interaction.</li>
+          <li>If the customer wants SMS, the customer affirmatively checks the unchecked SMS consent box. If the box is not checked, no SMS opt-in is collected.</li>
+          <li>The customer submits the request, and TarHeelW Communications keeps any SMS consent record with the related customer interaction.</li>
         </ol>
       </section>
 
